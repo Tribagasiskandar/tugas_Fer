@@ -1,0 +1,104 @@
+@media (min-width : 992px) {
+  .offcanvas {
+    visibility      : visible;
+    position        : relative;
+    border          : none;
+    justify-content : end;
+ 
+  }
+}
+.navbar-nav{
+  background-color: #F1F3FF;
+}
+
+@media (max-width : 992px) {
+  .offcanvas {
+    width : 250px !important;
+  }
+
+  .offcanvas-start-lg {
+    top          : 0;
+    right        : 0;
+    border-right : 1px solid rgba(0, 0, 0, .2);
+    transform    : translateZ(100%);
+  }
+
+}
+header{
+  background-color: #F1F3FF;
+  height: 480px;
+}
+.navbar{
+  background-color: #F1F3FF;
+
+}
+.navbar-nav li a {
+color: black;
+}
+
+.cta-sewa{
+  background-color: #5CB85F;
+  margin-top: 16px;
+  text-decoration: none;
+  padding: 8px 12px;
+  color: white;
+}
+.text-styled{
+  position: relative;
+  top: 100px;
+}
+.bg{
+  position: absolute;
+  top: 70px;
+  right: 0px;
+}
+
+@media (max-width: 576px) {
+  .text-styled{
+    top: 30px;
+  }
+  .text-styled h2{
+    font-size: 2em;
+  }
+  .bg{
+    top: 300px;
+  }
+
+}
+@media (max-width: 768px) {
+  header{
+    height: 800px;
+  }
+  .text-styled{
+    top: 30px;
+  }
+  .text-styled h2{
+    font-size: 2em;
+  }
+  .bg{
+    top: 500px;
+  }
+}
+
+
+.mt{
+  margin-top: 120px;
+}
+
+.service-card {
+  border: none;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.7);
+  border-radius: 20px;
+  margin-top: 5px;
+  border: 1px solid gainsboro;
+}
+.service-card__img {
+  padding: 1.25rem;
+}
+
+.cta {
+  width: 1168px;
+  height: 326px;
+  background-color: #0D28A6;
+  border-radius: 13px;
+}
